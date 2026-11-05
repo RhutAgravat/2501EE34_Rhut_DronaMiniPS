@@ -8,18 +8,18 @@
     "baseline_visible": true,
     "hidden_start_s": 0.4,
     "hidden_end_s": 1.6,
-    "lost_observations": 10,
-    "first_lost_s": 1.28,
+    "lost_observations": 23,
+    "first_lost_s": 0.76,
     "safety_events": [
       [
-        0.68,
+        0.6,
         "stale",
         [
           3
         ]
       ],
       [
-        1.28,
+        0.76,
         "lost",
         [
           3
