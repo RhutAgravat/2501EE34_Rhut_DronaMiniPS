@@ -1,0 +1,2 @@
+# Phase 13
+Final verification completed: 21 pytest tests, targeted RED/GREEN control-authority and transition-safety tests, line/circle/line-wave/circle-wave missions, and exact persisted metrics. Circle-wave now passes RMS 0.0826000338 m <= 0.10 m and minimum separation 0.3938353615 m >= 0.35 m with `ground_truth_control_feedback: false`.

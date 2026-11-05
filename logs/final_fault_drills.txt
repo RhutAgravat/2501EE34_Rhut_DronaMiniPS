@@ -1,0 +1,6 @@
+{
+  "F1_hidden_drone": 1,
+  "F1_actions": 12,
+  "F3_rejected_outliers": 1,
+  "F3_expected": "reject 1 m jump"
+}

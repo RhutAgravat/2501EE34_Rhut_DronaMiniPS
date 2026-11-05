@@ -1,0 +1,41 @@
+{
+  "ok": false,
+  "failures": [
+    {
+      "time": 0.0,
+      "drone_ids": [
+        0
+      ],
+      "measured": 1.8,
+      "required": 0,
+      "suggestion": "reduce spacing or move formation"
+    },
+    {
+      "time": 0.0,
+      "drone_ids": [
+        1
+      ],
+      "measured": 1.4000000000000001,
+      "required": 0,
+      "suggestion": "reduce spacing or move formation"
+    },
+    {
+      "time": 0.0,
+      "drone_ids": [
+        8
+      ],
+      "measured": 1.4000000000000001,
+      "required": 0,
+      "suggestion": "reduce spacing or move formation"
+    },
+    {
+      "time": 0.0,
+      "drone_ids": [
+        9
+      ],
+      "measured": 1.8,
+      "required": 0,
+      "suggestion": "reduce spacing or move formation"
+    }
+  ]
+}

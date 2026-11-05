@@ -1,0 +1,36 @@
+{
+  "F1_hidden_drone": 2,
+  "F1_actions": 13,
+  "F3_rejected_outliers": 1,
+  "F3_expected": "reject 1 m jump",
+  "F2_hidden_1_2s": {
+    "drone_id": 3,
+    "baseline_visible": true,
+    "hidden_start_s": 0.4,
+    "hidden_end_s": 1.6,
+    "lost_observations": 10,
+    "first_lost_s": 1.28,
+    "safety_events": [
+      [
+        0.68,
+        "stale",
+        [
+          3
+        ]
+      ],
+      [
+        1.28,
+        "lost",
+        [
+          3
+        ]
+      ]
+    ]
+  },
+  "F4_firmware_failsafe": {
+    "after_1s": true,
+    "landed_ids": [
+      0
+    ]
+  }
+}

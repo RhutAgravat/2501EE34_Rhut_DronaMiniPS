@@ -1,0 +1,19 @@
+{
+  "rms_tracking_error_m": 0.046988955142706394,
+  "formation_shape_error_m": 0.032421367885603174,
+  "phase_synchronization_error_deg": null,
+  "minimum_separation_m": 0.4037344482205578,
+  "max_overshoot_m": 0.10306143586005019,
+  "valid_estimate_samples": 184,
+  "safety_events": 4,
+  "rejected_outlier_count": 0,
+  "localization_rms_m": 0.032829475083441584,
+  "stale_count": 0,
+  "lost_count": 8,
+  "mission": "circle",
+  "samples": 48,
+  "rejected_outliers": 0,
+  "stale_lost_events": 4,
+  "detector_pipeline": "aruco+PnP",
+  "ground_truth_control_feedback": false
+}

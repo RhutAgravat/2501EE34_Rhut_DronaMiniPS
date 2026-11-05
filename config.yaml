@@ -1,0 +1,73 @@
+seed: 7
+physics:
+  hz: 240
+  gravity: [0, 0, -9.81]
+  mass: 0.08
+
+  # Maximum total thrust / vehicle weight.
+  # 3.0 gives enough vertical acceleration for the ±0.20 m wave.
+  max_thrust_to_weight: 3.0
+
+  # Horizontal damping remains higher for formation stability.
+  linear_drag_n_s_per_m: 0.16
+
+  # Lower vertical damping so altitude commands can produce motion.
+  vertical_drag_n_s_per_m: 0.02
+
+  horizontal_force_n: 2.5
+
+control:
+  hz: 25
+  kp: [1.8, 1.8, 3.0]
+  kv: [1.2, 1.2, 1.8]
+  yaw_kp: 0.8
+
+  hover_rc: 1333
+
+  # RC change corresponding to 1 m/s² of vertical
+  # acceleration around the calibrated hover point.
+  vertical_rc_per_accel: 33.98
+
+  max_tilt_deg: 15
+  derivative_alpha: 0.35
+  vertical_accel_limit: 1.2
+
+  vertical_integral_limit: 0.4
+
+arena:
+  x: [-1.0, 1.0]
+  y: [-0.6, 0.6]
+  z: [0.6, 1.4]
+  min_separation: 0.35
+formation:
+  line_spacing: 0.45
+  circle_radius: 0.42
+  height: 1.0
+wave:
+  amplitude: 0.2
+  period: 6.0
+  cycles: 3
+camera:
+  position: [0.0, 0.0, 3.0]
+  width: 1280
+  height: 720
+  fx: 900
+  fy: 900
+  cx: 640
+  cy: 360
+  latency_s: 0.08
+  marker_render_px: 160
+  drop_probability: 0.05
+  pixel_noise_sigma: 3.0
+  jump_limit_m: 0.5
+  smoothing_alpha: 0.65
+disturbance:
+  drift_accel: 0.15
+  battery_sag_duration: 120.0
+rc:
+  min: 1000
+  max: 2000
+safety:
+  stale_s: 0.15
+  lost_s: 0.30
+
