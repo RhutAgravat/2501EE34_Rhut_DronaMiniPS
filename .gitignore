@@ -18,3 +18,5 @@ probe.obj
 DronaSwarm_submission.zip
 codebase_context.md
 AUTONOMOUS_STATE.json
+
+MOCK_PS_PROMPT.txt
